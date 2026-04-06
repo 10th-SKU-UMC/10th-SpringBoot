@@ -1,6 +1,7 @@
 package com.example.umc10th.domain.mission.entity;
 
 
+import com.example.umc10th.domain.mission.entity.mapping.MemberMission;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Id;
@@ -47,5 +48,5 @@ public class Mission{
   private Store store;
 
   @OneToMany(mappedBy = "mission", cascade = CascadeType.ALL)
-  private List<UserMission> userMissions = new ArrayList<>();
+  private List<MemberMission> memberMissions = new ArrayList<>();
 }

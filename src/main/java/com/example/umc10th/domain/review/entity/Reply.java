@@ -1,6 +1,5 @@
 package com.example.umc10th.domain.review.entity;
 
-import com.example.umc10th.domain.user.entity.User;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -16,6 +15,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+
+import com.example.umc10th.domain.member.entity.Member;
 
 @Entity
 @Table(name = "reply")
@@ -40,6 +41,6 @@ public class Reply {
   private Review review;
 
   @ManyToOne(fetch = FetchType.LAZY)
-  @JoinColumn(name = "user_id", nullable = false)
-  private User user;
+  @JoinColumn(name = "member_id", nullable = false)
+  private Member member;
 }
