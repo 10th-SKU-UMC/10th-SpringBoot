@@ -1,5 +1,11 @@
 package com.umc.umcmission.domain.review.exception;
 
-public class ReviewException {
+import com.umc.umcmission.domain.review.exception.code.ReviewErrorCode;
+import com.umc.umcmission.global.ProjectException;
 
+public class ReviewException extends ProjectException {
+
+  public ReviewException(ReviewErrorCode errorCode) {
+    super(errorCode);
+  }
 }
