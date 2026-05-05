@@ -4,7 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb2cbe1b-b947-4eef-961e-cef86d2d2797" name="변경" comment="[Week04] 스티븐/강동균 미션 제출" />
+    <list default="true" id="cb2cbe1b-b947-4eef-961e-cef86d2d2797" name="변경" comment="[Week04] 스티븐/강동균 미션 제출">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/mission/entity/MemberMission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/store/controller/StoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/store/converter/StoreConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/store/dto/StoreReqDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/store/dto/StoreResDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/store/entity/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/store/entity/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/store/exception/code/StoreErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/store/exception/code/StoreSuccessCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/store/repository/StoreRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/store/service/StoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/global/apiPayload/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/global/apiPayload/code/BaseErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/global/apiPayload/code/BaseSuccessCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/global/apiPayload/code/GeneralErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/global/apiPayload/code/GeneralSuccessCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/global/apiPayload/exception/ProjectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/global/apiPayload/handler/GeneralExceptionAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/converter/MemberConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/converter/MemberConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/dto/MemberReqDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/dto/MemberReqDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/dto/MemberResDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/dto/MemberResDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/entity/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/enums/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/enums/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/exception/MemberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/exception/MemberException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/exception/code/MemberErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/exception/code/MemberErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/exception/code/MemberSuccessCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/exception/code/MemberSuccessCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/member/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/mission/controller/MissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/mission/controller/MissionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/mission/dto/MissionReqDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/mission/dto/MissionReqDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/mission/dto/MissionResDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/mission/dto/MissionResDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/mission/entity/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/mission/entity/Mission.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/mission/entity/Mission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/mission/entity/Store.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/mission/entity/mapping/MemberMission.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/mission/entity/mapping/UserMission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/mission/exception/code/MissionSuccessCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/mission/exception/code/MissionSuccessCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/review/controller/ReviewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/review/converter/ReviewConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/review/dto/ReviewReqDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/review/dto/ReviewResDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/review/entity/Reply.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/store/entity/Reply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/review/entity/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/store/entity/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/review/entity/ReviewPhoto.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/store/entity/ReviewPhoto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/review/exception/ReviewException.java" beforeDir="false" afterPath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/store/exception/StoreException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/review/exception/code/ReviewErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/review/exception/code/ReviewSuccessCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/review/repository/ReviewRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04/src/main/java/com/example/umc10th/domain/review/service/ReviewService.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,15 +66,41 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/week04">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/week04">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="umc10th" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
         <option value="Exception" />
+        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -50,7 +128,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Gradle 종속성 로드.executor": "Run",
     "Gradle.umc10th 빌드.executor": "Run",
+    "Gradle.week04 [bootJar].executor": "Run",
+    "Gradle.week04 [buildDependents].executor": "Run",
+    "Gradle.week04 [build].executor": "Run",
+    "Gradle.week04 [clean].executor": "Run",
+    "Gradle.week04 빌드.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -62,26 +146,115 @@
     "Spring Boot.Umc10thApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/강동균/IdeaProjects/umc10th/src/main/java/com/example/umc10th/domain",
+    "last_opened_file_path": "C:/Users/강동균/IdeaProjects/umc10th",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDK",
+    "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\강동균\IdeaProjects\umc10th" />
       <recent name="C:\Users\강동균\IdeaProjects\umc10th\src\main\java\com\example\umc10th\domain" />
       <recent name="C:\Users\강동균\IdeaProjects\umc10th\src\main\java\com\example\umc10th\domain\mission\exception" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Umc10thApplication">
+    <configuration name="week04 [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/week04" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="week04 [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/week04" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="week04 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/week04" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="week04 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/week04" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="Umc10thApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="envFilePaths">
         <option value="$PROJECT_DIR$/.env" />
@@ -95,6 +268,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.week04 [clean]" />
+        <item itemvalue="Gradle.week04 [build]" />
+        <item itemvalue="Gradle.week04 [buildDependents]" />
+        <item itemvalue="Gradle.week04 [bootJar]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -113,7 +294,9 @@
       <updated>1775371648075</updated>
       <workItem from="1775371649444" duration="9772000" />
       <workItem from="1775389564924" duration="14807000" />
-      <workItem from="1776156319312" duration="447000" />
+      <workItem from="1776156319312" duration="3054000" />
+      <workItem from="1776832635680" duration="6202000" />
+      <workItem from="1777109594597" duration="35098000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
