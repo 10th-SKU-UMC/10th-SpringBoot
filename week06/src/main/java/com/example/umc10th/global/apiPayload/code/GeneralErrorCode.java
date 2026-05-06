@@ -23,7 +23,7 @@ public enum GeneralErrorCode implements BaseErrorCode{
     ),
     INTERNAL_SERVER_ERROR(HttpStatus.INTERNAL_SERVER_ERROR,
             "COMMON500_1",
-            "서버 에러  ")
+            "서버 에러")
     ;
 
     private final HttpStatus status;
