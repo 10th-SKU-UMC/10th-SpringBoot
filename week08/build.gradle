@@ -6,7 +6,7 @@ plugins {
 
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
-description = 'week07'
+description = 'week08'
 
 java {
     toolchain {
@@ -36,6 +36,10 @@ dependencies {
     // Swagger
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:3.0.1'
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-api:3.0.1'
+
+    // Security
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    testImplementation 'org.springframework.security:spring-security-test'
 }
 
 tasks.named('test') {
