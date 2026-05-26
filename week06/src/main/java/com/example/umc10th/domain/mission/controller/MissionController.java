@@ -37,4 +37,11 @@ public class MissionController {
     ){
         return ApiResponse.onSuccess(MissionSuccessCode.OK, null);
     }
+
+    // 미션 생성하기
+    @PostMapping("/v1/store/{storeId}/mission")
+    public ApiResponse<Void> createMission(
+            @PathVariable long storeId,
+            @RequestBody M
+    )
 }

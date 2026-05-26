@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/auth")
 public class StoreController {
 
+    // 리뷰 작성하기
     @PostMapping("/v1/stores/{store_id}/reviews")
     public ApiResponse<StoreResDTO.CreateReviewResDTO> createReview(
             @PathVariable(name = "store_id") Long store_id, // 경로 지정, 주소의 값을 꺼내서 사용

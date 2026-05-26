@@ -17,4 +17,8 @@ public class MissionResDTO {
     public record ShowMissionListResDTO(
             List<ShowMissionResDTO> missionList
     ){}
+
+    // 미션 생성 응답
+    public record CreateMissionResDTO(
+    ){}
 }

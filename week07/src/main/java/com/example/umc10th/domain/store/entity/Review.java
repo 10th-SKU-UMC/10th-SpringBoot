@@ -1,0 +1,41 @@
+package com.example.umc10th.domain.store.entity;
+
+import com.example.umc10th.domain.member.entity.Member;
+import com.example.umc10th.global.apiPayload.code.BaseEntity;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
+import java.time.LocalDateTime;
+
+@Entity
+@Getter
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Table(name = "review")
+public class Review extends BaseEntity {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @Column(name = "review_id")
+    private Long id;
+
+    private Float star;
+
+    @Column(columnDefinition = "TEXT")
+    private String content;
+
+    @Column(name = "Field", length = 255)
+    private String field;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "store_id")
+    private Store store;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id")
+    private Member member;
+}

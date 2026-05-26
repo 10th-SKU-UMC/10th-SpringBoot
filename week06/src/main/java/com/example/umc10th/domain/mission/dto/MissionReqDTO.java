@@ -7,4 +7,10 @@ public class MissionReqDTO {
     // 미션 목록 요청
     public record ShowMissionListReqDTO(
     ){}
+
+    // 미션 생성 요청
+    public record CreateMissionReqDTO(
+            LocalDate deadline,
+            Integer point
+    ){}
 }
