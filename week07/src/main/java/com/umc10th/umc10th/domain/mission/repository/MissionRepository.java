@@ -1,0 +1,24 @@
+package com.umc10th.umc10th.domain.mission.repository;
+
+import com.umc10th.umc10th.domain.mission.entity.Mission;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+import java.util.List;
+
+
+public interface MissionRepository extends JpaRepository<Mission, Long> {
+
+    @Query("SELECT m FROM Mission m " +
+            "JOIN FETCH m.store s " +
+            "WHERE s.region.name = :regionName " +
+            "AND m.id NOT IN (SELECT um.mission.id FROM UserMission um WHERE um.user.id = :userId )")
+    Page<Mission> findAllByRegionAndNotChallenged(Long userId, String regionName, Pageable pageable);
+
+
+    Page<Mission> findAllByStore_id(Long storeId, PageRequest pageRequest);
+
+}

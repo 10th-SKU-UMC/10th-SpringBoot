@@ -1,0 +1,17 @@
+# 빌드 결과물 및 캐시 (가장 중요!)
+build/
+.gradle/
+out/
+bin/
+
+# 인텔리제이 설정 (개인 설정이므로 공유 X)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS 관련
+.DS_Store
+
+# 환경변수 (보안 주의)
+.env
