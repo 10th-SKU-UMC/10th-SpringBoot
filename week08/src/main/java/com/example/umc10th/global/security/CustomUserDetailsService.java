@@ -1,0 +1,37 @@
+package com.example.umc10th.global.security;
+
+import com.example.umc10th.member.entity.Member;
+import com.example.umc10th.member.repository.MemberRepository;
+import java.util.List;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Service;
+
+@Service
+public class CustomUserDetailsService implements UserDetailsService {
+
+    private final MemberRepository memberRepository;
+
+    public CustomUserDetailsService(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
+
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        Member member = memberRepository.findByEmail(username)
+                .orElseThrow(() -> new UsernameNotFoundException("사용자를 찾을 수 없습니다."));
+
+        String role = (member.getRole() == null || member.getRole().isBlank())
+                ? "ROLE_USER"
+                : member.getRole();
+
+        return new User(
+                member.getEmail(),
+                member.getPassword(),
+                List.of(new SimpleGrantedAuthority(role))
+        );
+    }
+}
