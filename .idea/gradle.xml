@@ -4,10 +4,10 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/week08" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/week09" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/week08" />
+            <option value="$PROJECT_DIR$/week09" />
           </set>
         </option>
       </GradleProjectSettings>
